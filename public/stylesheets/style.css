@@ -1,8 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: hsl(0, 0%, 9%);
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: hsl(120, 50%, 10%);
+  border-bottom: 1px solid gray;
+}
+p {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+ul {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  list-style-position: inside;
+}
+li {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+}
+a:visited {
+  color: hsl(0, 0%, 80%);
 }
